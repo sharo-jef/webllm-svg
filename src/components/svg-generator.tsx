@@ -1074,6 +1074,7 @@ export default function SVGGenerator() {
                   data={[
                     {
                       language: "xml",
+                      filename: "output.svg",
                       code: extractedSVGs[selectedSVGIndex] || "",
                     },
                   ]}
@@ -1111,6 +1112,7 @@ export default function SVGGenerator() {
                   data={[
                     {
                       language: "xml",
+                      filename: "ai-output.svg",
                       code: aiRawOutput || "",
                     },
                   ]}
